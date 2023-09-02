@@ -1,0 +1,46 @@
+html, .fullscreen{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+     }
+    
+     .container{
+        margin: auto;
+     }
+    
+     
+    body {
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #e2a1e6;
+    }
+    
+    main {
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+    }
+    
+    h1 {
+      text-align: center;
+      color: black;
+    }
+    
+    
+    .game {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+    
+    .game button {
+      width: 100px;
+      height: 100px;
+      margin: 5px;
+      cursor: pointer;
+      font-size: 50px;
+      background: gray;
+    }

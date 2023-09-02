@@ -1,0 +1,23 @@
+{
+  "name": "jogo-da-velha",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "serve .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kakaushow1/JOGO-DA-VELHA.git"
+  },
+  "author": "kauani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kakaushow1/JOGO-DA-VELHA/issues"
+  },
+  "homepage": "https://github.com/kakaushow1/JOGO-DA-VELHA#readme",
+  "dependencies": {
+    "serve": "^14.2.1"
+  }
+}
